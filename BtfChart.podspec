@@ -18,17 +18,16 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.name         = "BtfChart"
   s.version      = "0.0.1"
-  s.summary      = "A short description of BtfChart."
+  s.summary      = "Simple and flexible iOS Chart Library"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "No description"
 
-  s.homepage     = "http://EXAMPLE/BtfChart"
+  s.homepage     = "http://jinmin888.github.io"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,8 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "BtfChart", "BtfChart/**/*.{swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 

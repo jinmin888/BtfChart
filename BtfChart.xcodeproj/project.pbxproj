@@ -11,6 +11,7 @@
 		39602A7D202B26600045E9F3 /* BtfChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39602A7C202B26600045E9F3 /* BtfChartTests.swift */; };
 		39602A7F202B26600045E9F3 /* BtfChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 39602A71202B26600045E9F3 /* BtfChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39602A8B202B28CF0045E9F3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 39602A8A202B28CF0045E9F3 /* LICENSE */; };
+		39602A8D202B2CB20045E9F3 /* BTFLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39602A8C202B2CB20045E9F3 /* BTFLineChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		39602A7C202B26600045E9F3 /* BtfChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtfChartTests.swift; sourceTree = "<group>"; };
 		39602A7E202B26600045E9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39602A8A202B28CF0045E9F3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		39602A8C202B2CB20045E9F3 /* BTFLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTFLineChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				39602A71202B26600045E9F3 /* BtfChart.h */,
 				39602A72202B26600045E9F3 /* Info.plist */,
+				39602A8C202B2CB20045E9F3 /* BTFLineChart.swift */,
 			);
 			path = BtfChart;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				TargetAttributes = {
 					39602A6D202B26600045E9F3 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					39602A76202B26600045E9F3 = {
@@ -200,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39602A8D202B2CB20045E9F3 /* BTFLineChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +343,7 @@
 		39602A83202B26600045E9F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,6 +356,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.min.BtfChart;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -358,6 +365,7 @@
 		39602A84202B26600045E9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -378,6 +386,7 @@
 		39602A86202B26600045E9F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BtfChartTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -391,6 +400,7 @@
 		39602A87202B26600045E9F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BtfChartTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
