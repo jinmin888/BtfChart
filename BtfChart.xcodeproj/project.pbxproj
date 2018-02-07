@@ -10,6 +10,7 @@
 		39602A78202B26600045E9F3 /* BtfChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39602A6E202B26600045E9F3 /* BtfChart.framework */; };
 		39602A7D202B26600045E9F3 /* BtfChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39602A7C202B26600045E9F3 /* BtfChartTests.swift */; };
 		39602A7F202B26600045E9F3 /* BtfChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 39602A71202B26600045E9F3 /* BtfChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39602A8B202B28CF0045E9F3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 39602A8A202B28CF0045E9F3 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		39602A77202B26600045E9F3 /* BtfChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BtfChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39602A7C202B26600045E9F3 /* BtfChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtfChartTests.swift; sourceTree = "<group>"; };
 		39602A7E202B26600045E9F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39602A8A202B28CF0045E9F3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		39602A64202B26600045E9F3 = {
 			isa = PBXGroup;
 			children = (
+				39602A8A202B28CF0045E9F3 /* LICENSE */,
 				39602A70202B26600045E9F3 /* BtfChart */,
 				39602A7B202B26600045E9F3 /* BtfChartTests */,
 				39602A6F202B26600045E9F3 /* Products */,
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39602A8B202B28CF0045E9F3 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
